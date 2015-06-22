@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B1D7171B238D7E00D0A867 /* DrawLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1D7161B238D7E00D0A867 /* DrawLineView.swift */; };
+		74B1D7191B238E2000D0A867 /* DrawRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1D7181B238E2000D0A867 /* DrawRectangleView.swift */; };
+		74C4BBFC1B2389EC0092CC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4BBFB1B2389EC0092CC55 /* AppDelegate.swift */; };
+		74C4BBFE1B2389EC0092CC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4BBFD1B2389EC0092CC55 /* ViewController.swift */; };
+		74C4BC011B2389EC0092CC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C4BBFF1B2389EC0092CC55 /* Main.storyboard */; };
+		74C4BC031B2389EC0092CC55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C4BC021B2389EC0092CC55 /* Images.xcassets */; };
+		74C4BC061B2389EC0092CC55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C4BC041B2389EC0092CC55 /* LaunchScreen.xib */; };
+		74C4BC121B2389EC0092CC55 /* Intro_To_QuartzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4BC111B2389EC0092CC55 /* Intro_To_QuartzTests.swift */; };
+		74EBB5761B2F3E7700DD0DB3 /* DrawCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB5751B2F3E7700DD0DB3 /* DrawCircleView.swift */; };
+		74EBB5781B2F417D00DD0DB3 /* DrawArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB5771B2F417D00DD0DB3 /* DrawArcView.swift */; };
+		74EBB57A1B2F446300DD0DB3 /* DrawPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB5791B2F446300DD0DB3 /* DrawPathView.swift */; };
+		74EBB57C1B2F45F900DD0DB3 /* FillPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB57B1B2F45F900DD0DB3 /* FillPathView.swift */; };
+		74EBB57E1B32FAAD00DD0DB3 /* FillEllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB57D1B32FAAD00DD0DB3 /* FillEllipseView.swift */; };
+		74EBB5801B32FCDB00DD0DB3 /* AddLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB57F1B32FCDB00DD0DB3 /* AddLinesView.swift */; };
+		74EBB5821B33013800DD0DB3 /* DrawGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB5811B33013800DD0DB3 /* DrawGradientView.swift */; };
+		74EBB58E1B33196200DD0DB3 /* DrawHappyFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB58D1B33196200DD0DB3 /* DrawHappyFaceView.swift */; };
+		74EBB5901B33197C00DD0DB3 /* SetShadowWithColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EBB58F1B33197C00DD0DB3 /* SetShadowWithColorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74C4BC0C1B2389EC0092CC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C4BBEE1B2389EB0092CC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C4BBF51B2389EC0092CC55;
+			remoteInfo = "Intro To Quartz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B1D7161B238D7E00D0A867 /* DrawLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLineView.swift; sourceTree = "<group>"; };
+		74B1D7181B238E2000D0A867 /* DrawRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawRectangleView.swift; sourceTree = "<group>"; };
+		74C4BBF61B2389EC0092CC55 /* Intro To Quartz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intro To Quartz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C4BBFA1B2389EC0092CC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C4BBFB1B2389EC0092CC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74C4BBFD1B2389EC0092CC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74C4BC001B2389EC0092CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C4BC021B2389EC0092CC55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74C4BC051B2389EC0092CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		74C4BC0B1B2389EC0092CC55 /* Intro To QuartzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intro To QuartzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C4BC101B2389EC0092CC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C4BC111B2389EC0092CC55 /* Intro_To_QuartzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_To_QuartzTests.swift; sourceTree = "<group>"; };
+		74EBB5751B2F3E7700DD0DB3 /* DrawCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCircleView.swift; sourceTree = "<group>"; };
+		74EBB5771B2F417D00DD0DB3 /* DrawArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawArcView.swift; sourceTree = "<group>"; };
+		74EBB5791B2F446300DD0DB3 /* DrawPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawPathView.swift; sourceTree = "<group>"; };
+		74EBB57B1B2F45F900DD0DB3 /* FillPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillPathView.swift; sourceTree = "<group>"; };
+		74EBB57D1B32FAAD00DD0DB3 /* FillEllipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillEllipseView.swift; sourceTree = "<group>"; };
+		74EBB57F1B32FCDB00DD0DB3 /* AddLinesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLinesView.swift; sourceTree = "<group>"; };
+		74EBB5811B33013800DD0DB3 /* DrawGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawGradientView.swift; sourceTree = "<group>"; };
+		74EBB58D1B33196200DD0DB3 /* DrawHappyFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawHappyFaceView.swift; sourceTree = "<group>"; };
+		74EBB58F1B33197C00DD0DB3 /* SetShadowWithColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetShadowWithColorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C4BBF31B2389EC0092CC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4BC081B2389EC0092CC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74C4BBED1B2389EB0092CC55 = {
+			isa = PBXGroup;
+			children = (
+				74C4BBF81B2389EC0092CC55 /* Intro To Quartz */,
+				74C4BC0E1B2389EC0092CC55 /* Intro To QuartzTests */,
+				74C4BBF71B2389EC0092CC55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C4BBF71B2389EC0092CC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C4BBF61B2389EC0092CC55 /* Intro To Quartz.app */,
+				74C4BC0B1B2389EC0092CC55 /* Intro To QuartzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C4BBF81B2389EC0092CC55 /* Intro To Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				74EBB58F1B33197C00DD0DB3 /* SetShadowWithColorView.swift */,
+				74EBB58D1B33196200DD0DB3 /* DrawHappyFaceView.swift */,
+				74C4BBFB1B2389EC0092CC55 /* AppDelegate.swift */,
+				74C4BBFD1B2389EC0092CC55 /* ViewController.swift */,
+				74C4BBFF1B2389EC0092CC55 /* Main.storyboard */,
+				74EBB57D1B32FAAD00DD0DB3 /* FillEllipseView.swift */,
+				74EBB57F1B32FCDB00DD0DB3 /* AddLinesView.swift */,
+				74EBB5811B33013800DD0DB3 /* DrawGradientView.swift */,
+				74EBB5771B2F417D00DD0DB3 /* DrawArcView.swift */,
+				74EBB5791B2F446300DD0DB3 /* DrawPathView.swift */,
+				74EBB57B1B2F45F900DD0DB3 /* FillPathView.swift */,
+				74EBB5751B2F3E7700DD0DB3 /* DrawCircleView.swift */,
+				74B1D7161B238D7E00D0A867 /* DrawLineView.swift */,
+				74B1D7181B238E2000D0A867 /* DrawRectangleView.swift */,
+				74C4BC021B2389EC0092CC55 /* Images.xcassets */,
+				74C4BC041B2389EC0092CC55 /* LaunchScreen.xib */,
+				74C4BBF91B2389EC0092CC55 /* Supporting Files */,
+			);
+			path = "Intro To Quartz";
+			sourceTree = "<group>";
+		};
+		74C4BBF91B2389EC0092CC55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C4BBFA1B2389EC0092CC55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74C4BC0E1B2389EC0092CC55 /* Intro To QuartzTests */ = {
+			isa = PBXGroup;
+			children = (
+				74C4BC111B2389EC0092CC55 /* Intro_To_QuartzTests.swift */,
+				74C4BC0F1B2389EC0092CC55 /* Supporting Files */,
+			);
+			path = "Intro To QuartzTests";
+			sourceTree = "<group>";
+		};
+		74C4BC0F1B2389EC0092CC55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C4BC101B2389EC0092CC55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C4BBF51B2389EC0092CC55 /* Intro To Quartz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C4BC151B2389EC0092CC55 /* Build configuration list for PBXNativeTarget "Intro To Quartz" */;
+			buildPhases = (
+				74C4BBF21B2389EC0092CC55 /* Sources */,
+				74C4BBF31B2389EC0092CC55 /* Frameworks */,
+				74C4BBF41B2389EC0092CC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intro To Quartz";
+			productName = "Intro To Quartz";
+			productReference = 74C4BBF61B2389EC0092CC55 /* Intro To Quartz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74C4BC0A1B2389EC0092CC55 /* Intro To QuartzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C4BC181B2389EC0092CC55 /* Build configuration list for PBXNativeTarget "Intro To QuartzTests" */;
+			buildPhases = (
+				74C4BC071B2389EC0092CC55 /* Sources */,
+				74C4BC081B2389EC0092CC55 /* Frameworks */,
+				74C4BC091B2389EC0092CC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C4BC0D1B2389EC0092CC55 /* PBXTargetDependency */,
+			);
+			name = "Intro To QuartzTests";
+			productName = "Intro To QuartzTests";
+			productReference = 74C4BC0B1B2389EC0092CC55 /* Intro To QuartzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C4BBEE1B2389EB0092CC55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Tyner";
+				TargetAttributes = {
+					74C4BBF51B2389EC0092CC55 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					74C4BC0A1B2389EC0092CC55 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 74C4BBF51B2389EC0092CC55;
+					};
+				};
+			};
+			buildConfigurationList = 74C4BBF11B2389EC0092CC55 /* Build configuration list for PBXProject "Intro To Quartz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C4BBED1B2389EB0092CC55;
+			productRefGroup = 74C4BBF71B2389EC0092CC55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C4BBF51B2389EC0092CC55 /* Intro To Quartz */,
+				74C4BC0A1B2389EC0092CC55 /* Intro To QuartzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C4BBF41B2389EC0092CC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4BC011B2389EC0092CC55 /* Main.storyboard in Resources */,
+				74C4BC061B2389EC0092CC55 /* LaunchScreen.xib in Resources */,
+				74C4BC031B2389EC0092CC55 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4BC091B2389EC0092CC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C4BBF21B2389EC0092CC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1D7191B238E2000D0A867 /* DrawRectangleView.swift in Sources */,
+				74C4BBFE1B2389EC0092CC55 /* ViewController.swift in Sources */,
+				74EBB5821B33013800DD0DB3 /* DrawGradientView.swift in Sources */,
+				74EBB57A1B2F446300DD0DB3 /* DrawPathView.swift in Sources */,
+				74EBB5781B2F417D00DD0DB3 /* DrawArcView.swift in Sources */,
+				74EBB57C1B2F45F900DD0DB3 /* FillPathView.swift in Sources */,
+				74EBB5761B2F3E7700DD0DB3 /* DrawCircleView.swift in Sources */,
+				74EBB5801B32FCDB00DD0DB3 /* AddLinesView.swift in Sources */,
+				74B1D7171B238D7E00D0A867 /* DrawLineView.swift in Sources */,
+				74C4BBFC1B2389EC0092CC55 /* AppDelegate.swift in Sources */,
+				74EBB5901B33197C00DD0DB3 /* SetShadowWithColorView.swift in Sources */,
+				74EBB58E1B33196200DD0DB3 /* DrawHappyFaceView.swift in Sources */,
+				74EBB57E1B32FAAD00DD0DB3 /* FillEllipseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4BC071B2389EC0092CC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4BC121B2389EC0092CC55 /* Intro_To_QuartzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74C4BC0D1B2389EC0092CC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C4BBF51B2389EC0092CC55 /* Intro To Quartz */;
+			targetProxy = 74C4BC0C1B2389EC0092CC55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74C4BBFF1B2389EC0092CC55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C4BC001B2389EC0092CC55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74C4BC041B2389EC0092CC55 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C4BC051B2389EC0092CC55 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74C4BC131B2389EC0092CC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		74C4BC141B2389EC0092CC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C4BC161B2389EC0092CC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Intro To Quartz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74C4BC171B2389EC0092CC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Intro To Quartz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74C4BC191B2389EC0092CC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Intro To QuartzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro To Quartz.app/Intro To Quartz";
+			};
+			name = Debug;
+		};
+		74C4BC1A1B2389EC0092CC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Intro To QuartzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro To Quartz.app/Intro To Quartz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C4BBF11B2389EC0092CC55 /* Build configuration list for PBXProject "Intro To Quartz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4BC131B2389EC0092CC55 /* Debug */,
+				74C4BC141B2389EC0092CC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C4BC151B2389EC0092CC55 /* Build configuration list for PBXNativeTarget "Intro To Quartz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4BC161B2389EC0092CC55 /* Debug */,
+				74C4BC171B2389EC0092CC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C4BC181B2389EC0092CC55 /* Build configuration list for PBXNativeTarget "Intro To QuartzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4BC191B2389EC0092CC55 /* Debug */,
+				74C4BC1A1B2389EC0092CC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C4BBEE1B2389EB0092CC55 /* Project object */;
+}
