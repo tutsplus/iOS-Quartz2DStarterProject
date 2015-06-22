@@ -12,11 +12,7 @@ class DrawRectangleView: UIView {
 
     
     override func drawRect(rect: CGRect) {
-        let context = UIGraphicsGetCurrentContext()
-        CGContextSetStrokeColorWithColor(context,UIColor.redColor().CGColor)
-        let rectangle = CGRectMake(50,50,frame.size.width-100,frame.size.height-100)
-        CGContextAddRect(context,rectangle)
-        CGContextStrokePath(context)
+        
     }
     
 

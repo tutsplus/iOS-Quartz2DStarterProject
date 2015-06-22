@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Intro To Quartz/DrawGradientView.swift"
-            timestampString = "456330469.442993"
+            timestampString = "456696080.178534"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "DrawGradientView"
             landmarkType = "3">
          </BreakpointContent>

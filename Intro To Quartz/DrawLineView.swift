@@ -11,11 +11,7 @@ import UIKit
 class DrawLineView: UIView {
 
     override func drawRect(rect: CGRect) {
-        let context = UIGraphicsGetCurrentContext()
-        CGContextSetStrokeColorWithColor(context, UIColor.redColor().CGColor)
-        CGContextMoveToPoint(context, 0, 0)
-        CGContextAddLineToPoint(context, 200, 200)
-        CGContextStrokePath(context)
+        
     }
 
 }
