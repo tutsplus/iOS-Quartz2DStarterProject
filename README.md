@@ -1,9 +1,9 @@
-### Intro To Quartz2d Starter Project
+### Tuts+ Tutorial: An Introduction to Quartz 2D
+
 #### Instructor: James Tyner
 
-This is the starter project for the tutorial Intro to Quartz2d
+In this tutorial, I will be teaching the basics of the Quartz 2D drawing engine. After reading this tutorial, you should have a good understanding of the basic drawing capabilities offered by Quartz 2D and be ready to incorporate it into your own projects.
 
-Source files for the Tuts+ tutorial: [Intro to Quartz2d
-](http://.tutsplus.com/tutorials/intro-to-quartz2d--cms-24267)
+Starter project for the Tuts+ tutorial: [An Introduction to Quartz 2D](http://code.tutsplus.com/tutorials/an-introduction-to-quartz-2d--cms-24267)
 
 **Read this tutorial on [Tuts+](https://code.tutsplus.com)**
